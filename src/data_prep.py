@@ -3,7 +3,7 @@
 import pandas as pd
 
 def load_and_print_data():
-    data = pd.read_csv('../data/matches.csv', sep=",", header=0, decimal=".")
+    data = pd.read_csv('../data/matches.csv', sep=";", header=0, decimal=",")
 
     data.drop(columns=data.columns[0], axis=1,  inplace=True)
 
