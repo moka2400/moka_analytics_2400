@@ -2,13 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pylab import rcParams
 import numpy as np
-import os
 
-from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import cross_val_score, train_test_split, GridSearchCV
-from sklearn.feature_selection import RFECV, SelectFromModel, SelectKBest
-from sklearn.preprocessing import StandardScaler
 from sklearn import metrics
 
 from Models.data_split import DataSplit
