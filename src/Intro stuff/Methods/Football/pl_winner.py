@@ -50,7 +50,7 @@ clubs_to_include = [
     'Brighton',
     'Newcastle'
 ]
-file_paths = glob.glob('../data/pl_matches/*.csv')
+file_paths = glob.glob('../../data/pl_matches/*.csv')
 
 def load_data() -> pd.DataFrame:
     dfs = [
